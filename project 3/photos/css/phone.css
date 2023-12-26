@@ -1,0 +1,79 @@
+/*navbar*/
+#navbar {
+   flex-direction: row;
+}
+
+#navbar ul li a {
+   font-size: 6px;
+   padding: 4px;
+   margin: 7px 3px;
+   font-weight: bold;
+   position: relative;
+   bottom: 28px;
+}
+
+#navbar .bt {
+   position: absolute;
+   right: 116px;
+   top: 34px;
+
+}
+
+#logo1 img {
+   bottom: 5px;
+}
+
+/*home*/
+#home {
+   height: 455px;
+   padding: 34px 57px;
+}
+
+#home::before {
+   height: 605px;
+}
+
+#home h1 {
+   text-align: center;
+}
+
+/*services*/
+#services {
+   flex-direction: column;
+}
+
+#services .box {}
+
+/*client*/
+#clients {
+   flex-wrap: wrap;
+}
+
+#clients .client-item img {
+   height: auto;
+}
+/*contact */
+#contact #contact-box{
+   width: 82%;
+   height: 100%;
+   padding-left: 18px;
+}
+#icons .fun{
+   flex-wrap: wrap;
+}
+/* complain*/
+
+.footer-col {
+    width: 49%;
+    margin-bottom: 41px;
+    margin-left: 2px;
+}
+
+.footer-col .app img {
+   display: inline-block;
+   height: 46px;
+   width: 111px;
+   padding-left: 18px;
+   position: relative;
+   bottom: 1px;
+}
