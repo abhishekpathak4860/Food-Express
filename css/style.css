@@ -38,7 +38,6 @@
 
      #navbar ul li {
          list-style: none;
-
      }
 
      #navbar ul li a {
@@ -72,7 +71,8 @@
          position: relative;
          top: 18px;
          border: 2px solid red;
-         border-radius: 5px;
+         border-radius: 2px;
+         font-style: italic;
      }
 
      #navbar .bt p {
@@ -82,9 +82,8 @@
          left: 116px;
      }
 
-     #navbar input {
-         width: 141px;
-         font-style: italic;
+     #navbar .bt input {
+         width: 144px;
      }
 
      /* section*/
@@ -195,15 +194,17 @@
      }
 
      /*contact form*/
-     #contact {
-         position: relative;
+     #contact-box {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-bottom: 44px;
+
      }
 
-     #contact::before {
+     #contact-box::before {
          content: " ";
          position: absolute;
-         top: 0px;
-         left: 0px;
          width: 100%;
          height: 100%;
          z-index: -1;
@@ -212,42 +213,32 @@
          background: url('../pic/contact.jpeg') no-repeat center center/cover;
      }
 
-    #contact #contact-box {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         padding-bottom: 4px;
-         height: 359px;
+     #contact-box form {
+         width: 40%;
+
      }
 
-     #contact-box input {
-         border: 2px solid purple;
-         border-radius: 4px;
-     }
-
+     #contact-box input,
      #contact-box textarea {
-         width: 100%;
-         height: 100%;
-         padding: 0.5rem;
          border: 2px solid purple;
          border-radius: 4px;
+         width: 100%;
+         padding: 0.5rem;
+
      }
 
-     #contact label {
+     #contact-box label {
          font-weight: bolder;
+
      }
 
      .btn1 {
-         display: inline;
          border: 2px solid purple;
-         border-radius: 2px;
          cursor: pointer;
      }
 
      .btn2 {
-         display: inline;
          border: 2px solid purple;
-         border-radius: 2px;
          cursor: pointer;
      }
 
@@ -256,76 +247,73 @@
      }
 
      /*join our community*/
-     .meal{
-        position:relative;
-     }
      #taste {
          border: 2px solid snow;
-         color:black;
+         color: black;
          background-color: red;
          text-align: center;
      }
 
      #taste p {
-        /* text-align: center;*/
+         /* text-align: center;*/
      }
-            /*complain*/
-            .footer{
-                background-color:burlywood;
-            } 
-            ul{
-                    list-style: none;
-            }
-            .container{
-                max-width: 949px;
-                margin: auto;
-            }
-            .row{
-                display: flex;
-                flex-wrap: wrap;
-                margin-left: 14px;
-            }
-            .footer-col{
-                width: 25%;
-            }
-            .footer-col h4{
-                font-size:20px;
-                color:grey;
-                text-transform: capitalize;
-                margin-bottom: 32px;
-                font-weight: bold;
-                position: relative;
-            }
-            .footer-col h4::before{
-                   content: "";
-                   position: absolute;
-                   left: 0px;
-                   bottom: -3px;
-                   background-color: blue;
-                   width: 40px;
-                   height: 2px;
-            }
-            .footer-col ul li:not(:last-child){
-                margin-bottom: 7px;
-                
-            }
-            .footer-col ul li a{
-                color: black;
-                text-decoration: none;
-            }
-           .footer-col .app img{
-                display: inline-block;
-                height: 50px;
-                width: 125px;
-            }
+
+     /*complain*/
+     .footer {
+         background-color: burlywood;
+     }
+
+     ul {
+         list-style: none;
+     }
+
+     .container {
+         max-width: 949px;
+         margin: auto;
+     }
+
+     .row {
+         display: flex;
+         flex-wrap: wrap;
+         margin-left: 14px;
+     }
+
+     .footer-col {
+         width: 25%;
+     }
+
+     .footer-col h4 {
+         font-size: 20px;
+         color: grey;
+         text-transform: capitalize;
+         margin-bottom: 32px;
+         font-weight: bold;
+     }
+     .footer-col ul li:not(:last-child) {
+         margin-bottom: 7px;
+     }
+
+     .footer-col ul li a {
+         color: black;
+         text-decoration: none;
+     }
+
+     .footer-col .app img {
+         display: inline-block;
+         height: 50px;
+         width: 125px;
+     }
+
      /*icons*/
      #icons {
          position: relative;
          background-color: #000000bf;
      }
-   #icons h3{
-    color: white;
-   }
+
+     #icons h3 {
+         color: white;
+     }
+
      #icons .fun {
          display: flex;
          align-items: center;
@@ -338,8 +326,8 @@
      #icons .fun p {
          margin: 12px;
          padding: 5px;
-         color:white;
-         background-color:black;
+         color: white;
+         background-color: black;
          border-radius: 50%;
      }
 

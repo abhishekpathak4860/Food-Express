@@ -16,9 +16,7 @@
    position: absolute;
    right: 116px;
    top: 34px;
-
 }
-
 #logo1 img {
    bottom: 5px;
 }
@@ -53,11 +51,15 @@
    height: auto;
 }
 /*contact */
-#contact #contact-box{
-   width: 82%;
-   height: 100%;
-   padding-left: 18px;
+.btn1{
+   margin:4px;
 }
+#contact-box form{
+   width: 80%;
+ }
+ #contact-box::before{
+   height: 489px;
+ }
 #icons .fun{
    flex-wrap: wrap;
 }
@@ -70,10 +72,8 @@
 }
 
 .footer-col .app img {
-   display: inline-block;
    height: 46px;
    width: 111px;
    padding-left: 18px;
-   position: relative;
    bottom: 1px;
 }
