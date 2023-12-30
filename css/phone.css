@@ -63,6 +63,10 @@
 #icons .fun{
    flex-wrap: wrap;
 }
+/*near me */
+  .me{
+   flex-wrap: wrap;
+  }
 /* complain*/
 
 .footer-col {
