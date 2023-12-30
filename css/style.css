@@ -260,7 +260,23 @@
      #taste p {
          /* text-align: center;*/
      }
-
+    /*near me */
+  .me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .me .click{
+    padding: 2px 2px;
+    margin: 5px 10px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .me .click:hover{
+    color: darkgoldenrod;
+  }
      /*complain*/
      .footer {
          background-color: burlywood;
