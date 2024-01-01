@@ -345,11 +345,12 @@
      #icons .fun p {
          margin: 12px;
          padding: 5px;
-         color: white;
          background-color: black;
          border-radius: 50%;
      }
-
+       #icons .fun p a i{
+        color: blue;
+       }
      /*complain*/
 
      /*footer*/
