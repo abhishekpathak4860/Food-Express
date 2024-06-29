@@ -229,6 +229,9 @@
      .tertiary {
          font-size: 2.5rem;
      }
+#near{
+     animation: backcolor 8s linear infinite;
+}
 
      /*contact form*/
      #contact-box {
