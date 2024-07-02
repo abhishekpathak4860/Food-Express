@@ -56,7 +56,6 @@
          border-radius: 4px;
          color: black;
          background-color: white;
-         box-shadow: 2px 2px blue;
      }
 #navbar ul li a::before{
     content: "";
