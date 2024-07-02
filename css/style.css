@@ -55,7 +55,7 @@
          text-decoration: none;
          border-radius: 4px;
          color: black;
-         background-color: white;
+         background-color: white ;
      }
 #navbar ul li a::before{
     content: "";
