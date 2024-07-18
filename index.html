@@ -33,7 +33,8 @@
     </nav>
     </section>
     <section id="home">
-        <h1 class="primary">Welcome to AP's Online Meal</h1><br>
+<!--         <h1 class="primary">Welcome to AP's Online Meal</h1><br> -->
+         <span id="element"></span>
         <p>"Welcome, food lover! Indulge in a gastronomic experience like no other. Discover flavors that will tantalize
             your senses."</p>
         <button class="btn">Order Now</button>
@@ -210,6 +211,14 @@
             copyright &copy; www.myOnlineFoodService.com.All rights reserved|
         </div>
     </footer>
+
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<h1>Welcome to AP online meal'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 
 </html>
